@@ -14,3 +14,8 @@ dependencyResolutionManagement {
 }
 rootProject.name = "GradleVersionCatalog"
 include ':app'
+
+void aaa() {
+    println project.rootProject.findProperty("") as String ?: System.getenv("")
+    println rootProject.findProperty("") as String ?: System.getenv("")
+}
