@@ -1,0 +1,17 @@
+[versions]
+android-plugin = "7.2.1"
+kotlin = "1.7.0"
+navigation = "2.5.0"
+
+[libraries]
+core-ktx = { module = "androidx.core:core-ktx", version.ref = "kotlin"}
+navigation-fragment-ktx = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "navigation"}
+navigation-ui-ktx = { module = "androidx.navigation:navigation-ui-ktx", version.ref = "navigation"}
+
+[bundles]
+navigation = ["navigation-fragment-ktx", "navigation-ui-ktx"]
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "android-plugin" }
+android-library = { id = "com.android.library", version.ref = "android-plugin" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
