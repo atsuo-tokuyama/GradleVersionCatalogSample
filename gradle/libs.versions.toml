@@ -5,7 +5,7 @@ navigation = "2.5.0"
 
 [libraries]
 #core-ktx = { module = "androidx.core:core-ktx", version.ref = "kotlin"}
-core-ktx = "androidx.core:core-ktx:1.7.0"
+core-ktx = "androidx.core:core-ktx:1.9.0"
 navigation-fragment-ktx = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "navigation"}
 navigation-ui-ktx = { module = "androidx.navigation:navigation-ui-ktx", version.ref = "navigation"}
 
