@@ -1,5 +1,5 @@
 [versions]
-android-plugin = "7.2.1"
+android-plugin = "7.4.2"
 kotlin = "1.7.10"
 navigation = "2.5.2"
 
